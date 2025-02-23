@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('Hola Mundo\n')
+   response.end('Hola Mundo - Jenkins Test\n')
 }).listen(3333)
 
 // Console will print the message
